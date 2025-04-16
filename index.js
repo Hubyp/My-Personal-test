@@ -80,11 +80,11 @@ const client = new Client({
 
 /////////////////////////////////////////* NOTIFY VERIOS */////////////////////////////////////////
   let currentVersion = null;
-  const webhookUrl = "https://discord.com/api/webhooks/1094037349211590685/klrB40WCF4Y2dXdUdUAvLcteXjaQzUHgzUkbUuSizAhHivlhtpA8larQ0k-hZUt5tGc7" 
+  const webhookUrl = "WEBHOOK" 
 
   function sendNotification(version) {
     const currentVersion = {
-      content: '<@948916911293497344>, ROBLOX Update Notification',
+      content: '<@ROLEID>, ROBLOX Update Notification',
       embeds: [
         {
           title: 'Version ' + version + ' is now available!',
